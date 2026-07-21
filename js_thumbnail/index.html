@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeless Watches</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+      <div class="logo">TIMELESS WATCHES</div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search...." />
+
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Brands</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ================= PRODUCT ================= -->
+
+    <section class="product-container">
+      <!-- LEFT -->
+
+      <div class="gallery">
+        <div class="main-image">
+          <img id="bigImage" src="images/watch.jpg" alt="Watch" />
+        </div>
+
+        <div class="thumbnail-wrapper">
+          <button id="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <div class="thumbnails">
+            <img src="images/watch.jpg" class="thumb active" />
+
+            <img src="images/1.png" class="thumb" />
+
+            <img src="images/2.png" class="thumb" />
+
+            <img src="images/3.png" class="thumb" />
+
+            <img src="images/4.png" class="thumb" />
+
+            <img src="images/5.png" class="thumb" />
+                        
+            <img src="images/6.png" class="thumb" />
+
+          </div>
+
+          <button id="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="product-info">
+        <h1>Elegant Luxury Watch</h1>
+
+        <h3>PRESTIGE TIME CO.</h3>
+
+        <div class="price">
+          <span class="new-price"> ₹4,999 </span>
+
+          <span class="old-price"> ₹7,099 </span>
+
+          <span class="discount"> 38% OFF </span>
+        </div>
+
+        <p class="description">
+          This luxurious timepiece combines elegance with precision
+          craftsmanship. Perfect for formal occasions or everyday wear. Built
+          with premium materials and designed for lasting comfort.
+        </p>
+
+        <div class="rating">
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+
+          <span> Rated 4.8/5 (256 Reviews) </span>
+        </div>
+
+        <!-- Quantity -->
+
+        <div class="quantity">
+          <button id="minus">-</button>
+
+          <input type="text" value="1" id="qty" readonly />
+
+          <button id="plus">+</button>
+        </div>
+
+        <button class="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+
+          Add To Bag
+        </button>
+
+        <!-- Offer -->
+
+        <div class="offer">
+          <h2>Limited-Time Offer!</h2>
+
+          <p>
+            Get an additional
+            <strong>10% OFF</strong>
+            on your first purchase when you sign up.
+          </p>
+
+          <button>Sign Up Now</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
